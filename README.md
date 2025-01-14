@@ -1,8 +1,6 @@
-# Project 5: IA Part 5
+# Custom Programing Langauge (Name TBD)
 
-* Author: Brady Driebergen
-* Class: CS354 Section 2
-* Semester: Fall 2024
+Author: Brady Driebergen
 
 ## Overview
 
@@ -43,15 +41,3 @@ following command:
 
       $java Interpreter [-f file]
 
-## Results
-
-After running both test files, every test passes, proving that the interpreter works.
-Also verified using the interpreter in the console. 
-
-## Sources used
-
-https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html
-
-https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html
-
-https://stackoverflow.com/questions/2948444/how-do-you-set-a-double-value-to-a-non-value
