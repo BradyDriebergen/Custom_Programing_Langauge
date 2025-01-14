@@ -1,0 +1,113 @@
+Grade: 40/40
+
+Rubric for ia4:
+
+Overall Comments:
+
+-Submission
+
+    - all files that were required to complete the assignment
+    - a README.md file that has been completed
+
+
+Documentation:
+	-README.md has been updated with a new reflection: [5 points]
+
+    Thank you for your feedback on the project! 
+
+Automated Checks:
+
+	- EvaluationTest passes (I'll run mine too!) [35 points]
+
+    The test that fails is an old one. Looks like you accept terminating semicolons.
+
+commit 169c7a04c496591e5771e4e89413b468e5ead977
+Merge: 37ab2b7 9f42c78
+Author: BradyDriebergen <142831669+BradyDriebergen@users.noreply.github.com>
+Date:   Fri Oct 25 00:37:09 2024 -0600
+
+    Merge pull request #1 from KeysTeaching/iaPart4
+    
+    Ia part4
+Grader Compile Passed
+1.0
+3.0
+1.6666666666666667
+10.0
+10.0
+1.0
+832040.0
+10.0
+8.3
+4.1
+3.0
+-2.0
+3.0
+10.0
+10.0
+1.0
+2.0
+0.0
+10.0
+10.0
+4.0
+╷
+├─ JUnit Jupiter ✔
+│  └─ Grader ✔
+│     ├─ testOperators() ✔
+│     ├─ testAssociation2() ✔
+│     ├─ testAssociation3() ✔
+│     ├─ testBoolGTE2() ✔
+│     ├─ testBoolLTE2() ✔
+│     ├─ testGCD() ✔
+│     ├─ testFib() ✔
+│     ├─ testBoolE() ✔
+│     ├─ testTwoRd() ✔
+│     ├─ testRd() ✔
+│     ├─ testAssociation() ✔
+│     ├─ testSyntaxError() ✘ wr x; ==> Expected syntax.SyntaxException to be thrown, but nothing was thrown.
+│     ├─ testIncrement() ✔
+│     ├─ testSyntaxError2() ✔
+│     ├─ testPrecedence() ✔
+│     ├─ testBoolGTE() ✔
+│     ├─ testBoolLTE() ✔
+│     ├─ testAssignment() ✔
+│     ├─ testIncrement2() ✔
+│     ├─ testBoolE2() ✔
+│     ├─ testBoolGT() ✔
+│     ├─ testBoolLT() ✔
+│     ├─ testEvalError() ✔
+│     └─ testNestedParens() ✔
+├─ JUnit Vintage ✔
+└─ JUnit Platform Suite ✔
+
+Failures (1):
+  JUnit Jupiter:Grader:testSyntaxError()
+    MethodSource [className = 'Grader', methodName = 'testSyntaxError', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: wr x; ==> Expected syntax.SyntaxException to be thrown, but nothing was thrown.
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:39)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3099)
+       Grader.testSyntaxError(Grader.java:55)
+       java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+       java.base/java.lang.reflect.Method.invoke(Method.java:580)
+       org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+       org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+       org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+       [...]
+
+Test run finished after 65 ms
+[         4 containers found      ]
+[         0 containers skipped    ]
+[         4 containers started    ]
+[         0 containers aborted    ]
+[         4 containers successful ]
+[         0 containers failed     ]
+[        24 tests found           ]
+[         0 tests skipped         ]
+[        24 tests started         ]
+[         0 tests aborted         ]
+[        23 tests successful      ]
+[         1 tests failed          ]
+
